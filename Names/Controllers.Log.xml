@@ -1,0 +1,26 @@
+<log xmlns="urn:schemas-codeontime-com:xml-builder" xmlns:aquarium="urn:schemas-codeontime-com:data-aquarium">
+  <c y="NodeSet" t="2018-08-09T20:10:53">
+    <controller name="Names" />
+    <copy>
+      <controller name="Names" />
+    </copy>
+  </c>
+  <c y="NodeSet" t="2018-08-09T20:10:58">
+    <controller name="Names" />
+    <field name="Names_1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-08-09T20:11:02">
+    <controller name="Names" />
+    <clone />
+  </c>
+  <c y="NodeSet" t="2018-08-09T20:11:09">
+    <controller name="Names1" />
+    <command id="command1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-08-09T20:12:12">
+    <controller name="Names1" />
+    <delete />
+  </c>
+</log>

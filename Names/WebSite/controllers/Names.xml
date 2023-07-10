@@ -8,6 +8,7 @@ select
 	,"Names"."Names" "Names"
 	,"Names"."Type" "Type"
 from "dbo"."Names" "Names"
+where "Names"."Type" != 3
 ]]></text>
     </command>
   </commands>

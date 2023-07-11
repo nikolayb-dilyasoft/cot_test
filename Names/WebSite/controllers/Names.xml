@@ -106,4 +106,7 @@ where "Names"."Type" != 3
       <action id="a7" whenLastCommandName="New" commandName="Cancel" />
     </actionGroup>
   </actions>
+  <businessRules>
+    <rule id="r100" commandName="Insert" type="Code" phase="Before" name="PreventDuplicateNames" />
+  </businessRules>
 </dataController>
